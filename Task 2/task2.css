@@ -1,0 +1,10 @@
+ul{                         /* 0 0 1  */
+    font-size: 40px;
+}
+ul li:nth-child(3),ul li:nth-child(4),ul li:nth-child(5),ul li:nth-child(7) {                           /* 0 4 8 */
+    color: red;
+}
+
+ul li:nth-child(3n){  /*0 1 2 */
+   color: blue;
+}

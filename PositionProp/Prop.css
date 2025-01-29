@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans";
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+
+ /* Case: 1 When item is absolute */
+/* .container{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 60vh;
+    left: 80vw;
+} */
+
+ /* Case: 2 When container is relative and item is absolute */
+/* .container{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}
+
+.item{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    top: 2%;
+    left: 100%;
+} */
+
+/* Case: 3 When container is relative and item is static */
+/* .container{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}
+
+.item{
+    position: static;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    top: 20%;
+    left: 28%;
+} */
+
+
+/* Case: 4 When item is fixed */
+/* .container{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}
+
+.item{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    top: 0%;
+    left: 0%;
+} */
+
+
+/* Case: 5 When item is sticky */
+/* .container{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    overflow: auto;
+}
+
+.item{
+    position: sticky;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    top: 0;
+    left: 0;
+    
+} */
+
+/* Case: 5 When container is relative and item is fixed */
+.container{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    
+}
+
+.item{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    top: 50%;
+    left: 50%;
+    
+    
+}

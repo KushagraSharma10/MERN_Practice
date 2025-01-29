@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans";
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    width: 100%;
+    /* height: 100vh; */
+}
+
+.upper-body{
+    background-color: lightblue;
+}
+header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5vw 3vw;
+    background-color: lightblue;
+}
+
+.logo{
+    width: 4vw;
+    height: 4vw;
+
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2vw;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+}
+
+.links a{
+    color: #000;
+    text-decoration: none;
+}
+
+.Profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .3vw;
+    
+}
+
+.profilepic{
+    position: relative;
+    padding: 1vw;
+    background-color: green;
+    border-radius: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profilepic a{
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+}
+
+.Profile h5{
+    font-size: .9em;
+    font-weight: 500;
+}
+
+.Hello{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    border-bottom: .1vw solid #000;
+}
+
+.Hello h3{
+    font-size: 5em;
+    color: #000;
+}
+
+.Images_Text{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+    padding: 1vw 3vw;
+    margin-bottom: 5vw;
+}
+
+.pic{
+    width: 30vw;
+    height: 55vh;
+    /* background-color: blue; */
+}
+
+.pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1vw;
+
+}
+
+.textArea{
+    width: 60vw;
+    /* background-color: red; */
+}
+
+.textArea h2{
+    font-size: 2em;
+}
+
+.textArea p{
+    margin-top: 1vw;
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+.read-mode{
+    width: 100%;
+    display: flex;
+    padding: 1vw;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+.read-mode a{
+    font-size: 1em;
+    padding: .7vw;
+    border-radius: .3vw;
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(237, 42, 42);
+}

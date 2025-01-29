@@ -1,0 +1,37 @@
+a{
+   text-decoration: none;
+}
+
+#heading{
+    color: red;
+    font-size: 50px;
+}
+
+#heading:target{
+    color: blue;
+}
+
+button{
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+button:focus{
+    outline: none;
+    border: 3px solid black;
+    
+}
+
+input{
+    padding: 10px;
+   
+}
+
+input:focus{
+    outline: none;
+    border: 3px solid black;
+}
